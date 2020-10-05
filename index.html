@@ -1,116 +1,191 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>VKpro</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
 
-<head>
+    <meta name="description" content="Software Developer" />
+    <meta name="keywords" content="html, css, web, vkpro" />
+    <meta name="author" content="Vladimir K" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vladimir K. - Software Developer</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" /> -->
+  </head>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <body>
+    <div class="background"></div>
+    <div class="backdrop"></div>
+    <div class="modal">Follow the link below to check out this awesome project demo and github...</div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script src="js/scroll.js"></script>
-    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    <header class="main-header">
+      <div>
+        <a href="index.html" class="main-header__brand"> VKpro </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="#about">About</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
+    <main>
+      <section id="about" class="section about">
+        <h1 class="section-title">About</h1>
+        <div class="about__desc">
+          I'm a Software Developer with 10+ years of professional experience in IT. I always give my best and I'm
+          constantly improving my skills and learning new things to deliver the best work.
+        </div>
+        <hr />
+        <div>
+          <div>
+            <ul class="about__skills">
+              <li class="about__skill-group">
+                Web:
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/html-5.svg"
+                    alt="Html5"
+                  />
+                  <div>HTML</div>
+                </div>
 
-</head>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/css-3.svg"
+                    alt="css"
+                  />
+                  <div>CSS</div>
+                </div>
 
-<body data-spy="scroll" data-target="#navbar-site" data-offset="80" style="position: relative; padding-top: 80px">
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/javascript.svg"
+                    alt="javascript"
+                  />
+                  <div>JS</div>
+                </div>
 
-    <div class="container">
-        <nav id="navbar-site" class="navbar fixed-top" style="background-color: #bee5eb">
-            <a class="navbar-brand" href="#"><i class="far fa-id-card fa-2x" style="color:#261cff"></i> </a>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/react.svg"
+                    alt="react"
+                  />
+                  <div>React</div>
+                </div>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/redux.svg"
+                    alt="redux"
+                  />
+                  <div>Redux</div>
+                </div>
+              </li>
 
+              <li class="about__skill-group">
+                CI/CD:
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/docker-icon.svg"
+                    alt="docker"
+                  />
+                  <div>Docker</div>
+                </div>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/jenkins.svg"
+                    alt="jenkins"
+                  />
+                  <div>Jenkins</div>
+                </div>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/ansible.svg"
+                    alt="ansible"
+                  />
+                  <div>Ansible</div>
+                </div>
+                <div>
+                  <img src="https://cdn.svgporn.com/logos/travis-ci.svg" alt="travis" />
+                  <div>Travis</div>
+                </div>
+              </li>
+
+              <li class="about__skill-group">
+                Automation:
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/bash.svg"
+                    alt="bash"
+                  />
+                  <div>Bash</div>
+                </div>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/cc7f485576f332f98c837a2a8c8f4e8ecab25973/logos/python.svg"
+                    alt="python"
+                  />
+                  <div>Python</div>
+                </div>
+              </li>
             </ul>
-        </nav>
-
-        <h4 id="about" class="text-primary">About</h4>
-        <div class="row align-items-center justify-content-right" style="">
-
-            <div id='sdesc' class="col-12 col-sm-12 col-md-11 order-2 order-sm-1 m-3">
-                <p>Software Developer with 10+ years experience in IT and a special love to Automated Testing and DevOps.
-                </p>
-                <hr>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 order-sm-2 order-md-2 m-1">
-                <img id="photo" class="img-fluid rounded-circle" onmouseover="mouseOverPhoto()" onmouseout="mouseOverPhoto()" src="https://avatars3.githubusercontent.com/u/13347444?s=400&u=f853a23f07ab33514905608bfe5004164acdcf75&v=4" alt="photo" />
-            </div>
-
-            <div class="col-12 col-sm col-md-8 order-3 order-sm-1 align-self-start m-2" style="">
-                <ul class="list-group text-left">
-                    <li class="list-group-item list-group-item-action list-group-item-info font-weight-bold">WEB
-                        <a href="https://www.w3schools.com/tags/ref_byfunc.asp" class="badge badge-primary">HTML</a>
-                        <a href="https://www.w3schools.com/cssref/default.asp" class="badge badge-primary">CSS</a>
-                        <a href="http://api.jquery.com/" class="badge badge-primary">jQuery</a>
-                        <a href="http://getbootstrap.com/docs/" class="badge badge-primary">Bootstrap</a>
-                    </li>
-                    <li class="list-group-item list-group-item-action list-group-item-info font-weight-bold">CI/CD
-                        <a href="https://git-scm.com/book/en/" class="badge badge-primary">Git</a>
-                        <a href="https://docs.docker.com/" class="badge badge-primary">Docker</a>
-                        <a href="https://jenkins.io/doc/" class="badge badge-primary">Jenkins</a>
-                        <a href="https://docs.travis-ci.com/" class="badge badge-primary">TravisCI</a>
-                    </li>
-                    <li class="list-group-item list-group-item-action list-group-item-info font-weight-bold">OS
-                        <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/" class="badge badge-primary">RHEL</a>
-                        <a href="https://docs.ubuntu.com/" class="badge badge-primary">Ubuntu</a>
-                        <a href= class="badge badge-primary">Windows</a>
-                    </li>
-                    <li class="list-group-item list-group-item-action list-group-item-info font-weight-bold">Automation
-                        <a href="https://www.gnu.org/software/bash/manual/html_node/index.html" class="badge badge-primary">Bash</a>
-                        <a href="https://docs.python.org/3/library/" class="badge badge-primary">Python</a>
-                        <a href="https://www.seleniumhq.org/docs/" class="badge badge-primary">Selenium</a>
-                    </li>
-                </ul>
-            </div>
-
+          </div>
+          <figure>
+            <img
+              class="about_photo"
+              src="https://avatars1.githubusercontent.com/u/13347444?s=460&u=9d17f725760dcd17e183d1a24056858243ff9661&v=4"
+              alt="Photo"
+            />
+          </figure>
         </div>
+      </section>
 
-        <h4 id="projects" class=" text-primary">Projects</h4>
-        <div class="row justify-content-center m-3">
-
-            <div class="col-6">
-                <p data-height="265" data-theme-id="dark" data-slug-hash="yKppPr" data-default-tab="result" data-user="VladimirMsk" data-embed-version="2" data-pen-title="Random Quote Machine" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/VladimirMsk/pen/yKppPr/">Random Quote Machine</a> by Vladimir (<a href="https://codepen.io/VladimirMsk">@VladimirMsk</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-
+      <section id="projects" class="section">
+        <h1 class="section-title">Projects</h1>
+        <div class="projects">
+          <article class="project">
+            <div class="project__image-container">
+              <img src="images/ToDoList.gif" alt="ToDoList Demo" class="project__image" />
+              <h3 class="project__badge">React+Typescript</h3>
             </div>
-
-            <div class="col-6">
-                <p data-height="265" data-theme-id="dark" data-slug-hash="dmagNV" data-default-tab="result" data-user="VladimirMsk" data-embed-version="2" data-pen-title="Local_Weather" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/VladimirMsk/pen/dmagNV/">Local_Weather</a> by Vladimir (<a href="https://codepen.io/VladimirMsk">@VladimirMsk</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <div class="project__info">
+              ToDoList
+              <span>
+                <a href="https://github.com/vkpro/ToDoList">Github</a>
+                <a href="https://wxg2m.csb.app/">Demo</a>
+              </span>
             </div>
-
-            <div class="col-6">
-                <p data-height="265" data-theme-id="dark" data-slug-hash="ELjNgZ" data-default-tab="result" data-user="VladimirMsk" data-embed-version="2" data-pen-title="Wikipedia_Viewer" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/VladimirMsk/pen/ELjNgZ/">Wikipedia_Viewer</a> by Vladimir (<a href="https://codepen.io/VladimirMsk">@VladimirMsk</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-            </div>
-
+          </article>
         </div>
+      </section>
 
+      <section id="contacts" class="section">
+        <h1 class="section-title">Contacts</h1>
+        <article class="contacts">
+          <div class="contacts__item">
+            <a href="https://github.com/vkpro">
+              <img src="https://cdn.svgporn.com/logos/github-icon.svg" alt="Github" />
+            </a>
+          </div>
+          <div class="contacts__item">
+            <a href="mailto:vladimir.sdev@gmail.com">
+              <img src="https://cdn.svgporn.com/logos/google-gmail.svg" alt="Mail" />
+            </a>
+          </div>
+        </article>
+      </section>
+    </main>
 
-        <h4 id="contact" class="text-primary">Contacts</h4>
-        <div class="row text-justify m-3">
-
-            <ul class="list-inline">
-                <li class="list-inline-item"> <a href="https://github.com/vkpro"><i class="fab fa-github fa-3x"></i></a></li >
-                <li class="list-inline-item"> <a href="mailto:vladimir.sdev@gmail.com"><i class="far fa-envelope fa-3x"></i></a></li>
-            </ul>
-        </div>
-
-    </div>
-
-</body>
-
+    <script src="./js/main.js"></script>
+  </body>
 </html>
