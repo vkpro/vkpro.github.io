@@ -174,7 +174,7 @@ hr {
 
 .project {
   margin: 1rem;
-  height: 21rem;
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -215,6 +215,10 @@ hr {
   padding: 1rem;
   width: 100%;
 }
+
+/* .project__info img {
+  height: 3rem;
+} */
 
 .projects a {
   text-decoration: none;
